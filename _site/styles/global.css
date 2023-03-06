@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: solid grey 1px; */
+    --almost-black: #090C0A;
+    --almost-white: #FFFCF9;
+    --dark-green: #232F27;
+    --medium-green: #274029;
+    --medium-blue: #1C3187;
+    --bright-pink: #FF6978;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--almost-white);
+    color: var(--almost-black);
+    margin: 32px 48px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+header h1 {
+    color: var(--medium-green);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    padding: 20px;
+    color: purple;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--dark-green);
+}
+
+header nav a:hover {
+    color: var(--bright-pink);
+    text-decoration: underline dashed;
+}
+
+main h1 {
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+main h2 {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+main p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+main a {
+    color: var(--medium-green);
+}
+
+img.hero {
+    margin-right: -48px;
+    float: right;
+    height: 800px;
+    /* width: 35%; */
+    shape-margin: 8px;
+    /* border: solid red 1px; */
+}
+
+.tiktoks {
+    display: flex;
+}
