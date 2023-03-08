@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rm -rf ./_site",
     "build": "env NODE_ENV=production npm run clean && npx eleventy --pathprefix 'blog' --formats=html,njk,css,png,gif", 
-    "start": "eleventy --serve --watch"
+    "start": "eleventy --serve --watch   --formats=html,njk,css,png,gif"
   },
   "author": "",
   "license": "ISC",

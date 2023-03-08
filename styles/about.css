@@ -1,0 +1,8 @@
+.about-lists {
+    display: flex;
+    gap: 16px;
+}
+
+main li {
+    list-style: none;
+}
